@@ -42,8 +42,6 @@
   <ellipse stroke="white" fill="white"  stroke-width="3" cx="260" cy="105" rx="8" ry="8"/>
 
 
-  <!-- 右手掌  -->
-  <ellipse stroke="black" fill="white" stroke-width="3" cx="45" cy="244" rx="43" ry="43"/>
   
   </svg>
   <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
