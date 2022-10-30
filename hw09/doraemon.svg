@@ -1,38 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-  height="512" width="512" viewBox="0 0 512 512">
+  height="512" width="512" viewBox="0 0 600 600">
+   
+  <!-- 背景-後 -->
+  <ellipse stroke="#4893c8" fill="white"  stroke-width="20" cx="265" cy="259" rx="240" ry="240"/>
+  <!-- 手臂+左手掌 -->
+  <ellipse stroke="black" fill="white"  stroke-width="3" cx="460" cy="420" rx="43" ry="43"/>
+  <path d="M87 256 L180 300 L395 340 Q420 358 440 380 Q447 413 418 423 L396 415 L136 384 L40 275z" 
+  stroke="black" fill="#00a0e9" stroke-width="3"/>
+  <!-- 軀幹 -->
+  <path d="M140 360 Q130 410 140 465 Q265 500 390 465 Q400 410 390 360" stroke="black" fill="#00a0e9" stroke-width="3"/> 
+  <!-- 肚子 -->
+  <ellipse stroke="black" fill="white"  stroke-width="3" cx="266" cy="425" rx="105" ry="80"/>
+  <path d="M185 419 Q256 430 348 419 Q350 485 265 488 Q185 485 185 419" stroke="black" fill="white" 
+  stroke-width="3"/>
+  <!-- 背景-前 -->
+  <ellipse stroke="#4893c8" fill="none"  stroke-width="20" cx="265" cy="259" rx="240" ry="240"/>
+    
+  <!-- 臉-外 -->
+  <ellipse stroke="black" fill="#00a0e9"  stroke-width="3" cx="266" cy="183" rx="186" ry="176"/>
+  <!-- 臉-內 -->
+  <path d="M115 131 C 130 50 400 50 414 131 L426 202 Q390 370 270 360 Q 135 370 100 201z " stroke="black" 
+  fill="white" stroke-width="3"/>
 
-  <!-- 背景 -->
-  <image href="./character_1.png" height="512" width="512" />
-  <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
-
-  <!-- 座標線 -->
-  <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
-  <path d="M256  64 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="68" font-size="12" text-anchor="start" fill="red">64</text>
-  <path d="M256 128 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="132" font-size="12" text-anchor="start" fill="red">128</text>
-  <path d="M256 192 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="196" font-size="12" text-anchor="start" fill="red">192</text>
-  <path d="M256 256 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="260" font-size="12" text-anchor="start" fill="red">256</text>
-  <path d="M256 320 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="324" font-size="12" text-anchor="start" fill="red">320</text>
-  <path d="M256 384 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="388" font-size="12" text-anchor="start" fill="red">384</text>
-  <path d="M256 448 H0 H512" stroke="lightgray" fill="white"></path>
-  <text x="2" y="452" font-size="12" text-anchor="start" fill="red">448</text>
-  <text x="2" y="510" font-size="12" text-anchor="start" fill="red">512</text>
-
-  <path d="M64  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="58" y="12" font-size="12" text-anchor="start" fill="red">64</text>
-  <path d="M128  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="118" y="12" font-size="12" text-anchor="start" fill="red">128</text>
-  <path d="M195  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="186" y="12" font-size="12" text-anchor="start" fill="red">192</text>
-  <path d="M256  0 V512" stroke="lightgray" fill="white"></path>
-  <text x="246" y="12" font-size="12" text-anchor="start" fill="red">256</text>
+  <!-- 中線 -->
+  <path d="M265 100 V197" stroke="black" stroke-width="3"/> 
+  <!-- 嘴巴 --> 
+  <path d="M127 210 Q 256 185, 400 210 C330 370,198 356,128,210" stroke="black" fill="#d0112b" 
+  stroke-width="3"/>
+  <path d="M192 295 Q 226 250, 265 280 Q 310 250, 340 295 Q 275 356, 192 295" stroke="black" fill="#fa4c06" 
+  stroke-width="3"/>
+  <!-- 臉頰 --> 
+  <path d="M135 140 A19 20,0 0 0 109 203 Q 125 210 , 128 210 " stroke="black" fill="white" stroke-width="3"/>
+  <path d="M380 140 A19 20,0 0 1 424 203 Q 410 210 , 400 210 " stroke="black" fill="white" stroke-width="3"/>
+  <!-- 眼睛 -->
+  <ellipse stroke="black" fill="white"  stroke-width="3" cx="228" cy="60" rx="37" ry="45"/>
+  <ellipse stroke="black" fill="white"  stroke-width="3" cx="305" cy="60" rx="37" ry="45"/>  
+  <ellipse stroke="black" fill="black"  stroke-width="3" cx="245" cy="63" rx="10" ry="14"/>
+  <ellipse stroke="black" fill="black"  stroke-width="3" cx="287" cy="63" rx="10" ry="14"/>
+  <ellipse stroke="white" fill="white"  stroke-width="3" cx="246" cy="61" rx="5" ry="7"/>
+  <ellipse stroke="white" fill="white"  stroke-width="3" cx="287" cy="61" rx="5" ry="7"/>
+  <!-- 鼻子  -->
+  <ellipse stroke="black" fill="#d0112b"  stroke-width="3" cx="265" cy="110" rx="25" ry="25"/>
+  <ellipse stroke="white" fill="white"  stroke-width="3" cx="260" cy="105" rx="8" ry="8"/>
+  <!-- 項圈  -->
+  <path d="M145 320 Q256 370, 390 319 Q 402 330 , 395 340 Q 256 390, 145 340 Q 135 330, 145 320" 
+  stroke="black" fill="#d0112b" stroke-width="3"/> 
+  <!-- 鈴鐺  -->
+  <ellipse stroke="black" fill="#fcd91d"  stroke-width="3" cx="265" cy="378" rx="33" ry="33"/>
+  <path d="M245 366 Q250 355 265 363 Q284 355 287 366 Q291 376 277 400 Q272 405 265 398 Q259 406 253 398 Q240 376 245 366" stroke="#CE0000" fill="red" stroke-width="3"/>
+  <path d="M265 364 L270 350" stroke="brown" fill="none" stroke-width="2"/>
+  <path d="M269 357 Q270 350 282 353 Q275 359 269 357" stroke="#009100" fill="#00BB00" stroke-width="2"/>
+  <!-- 右手掌  -->
+  <ellipse stroke="black" fill="white" stroke-width="3" cx="45" cy="244" rx="43" ry="43"/>
+  
+  </svg>
   <path d="M320  0 V512" stroke="lightgray" fill="white"></path>
   <text x="310" y="12" font-size="12" text-anchor="start" fill="red">320</text>
   <path d="M384  0 V512" stroke="lightgray" fill="white"></path>
@@ -41,9 +64,7 @@
   <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
-  <!-- 中心十字標 -->
-  <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
-  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
+
 
   <!-- 橢圓 -->
   <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
