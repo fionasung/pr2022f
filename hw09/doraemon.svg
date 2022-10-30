@@ -3,8 +3,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
   height="512" width="512" viewBox="0 0 600 600">
    
-  <!-- 背景-後 -->
-  <ellipse stroke="#4893c8" fill="white"  stroke-width="20" cx="265" cy="259" rx="240" ry="240"/>
   <!-- 手臂+左手掌 -->
   <ellipse stroke="black" fill="white"  stroke-width="3" cx="460" cy="420" rx="43" ry="43"/>
   <path d="M87 256 L180 300 L395 340 Q420 358 440 380 Q447 413 418 423 L396 415 L136 384 L40 275z" 
@@ -44,14 +42,8 @@
   <!-- 鼻子  -->
   <ellipse stroke="black" fill="#d0112b"  stroke-width="3" cx="265" cy="110" rx="25" ry="25"/>
   <ellipse stroke="white" fill="white"  stroke-width="3" cx="260" cy="105" rx="8" ry="8"/>
-  <!-- 項圈  -->
-  <path d="M145 320 Q256 370, 390 319 Q 402 330 , 395 340 Q 256 390, 145 340 Q 135 330, 145 320" 
-  stroke="black" fill="#d0112b" stroke-width="3"/> 
-  <!-- 鈴鐺  -->
-  <ellipse stroke="black" fill="#fcd91d"  stroke-width="3" cx="265" cy="378" rx="33" ry="33"/>
-  <path d="M245 366 Q250 355 265 363 Q284 355 287 366 Q291 376 277 400 Q272 405 265 398 Q259 406 253 398 Q240 376 245 366" stroke="#CE0000" fill="red" stroke-width="3"/>
-  <path d="M265 364 L270 350" stroke="brown" fill="none" stroke-width="2"/>
-  <path d="M269 357 Q270 350 282 353 Q275 359 269 357" stroke="#009100" fill="#00BB00" stroke-width="2"/>
+
+
   <!-- 右手掌  -->
   <ellipse stroke="black" fill="white" stroke-width="3" cx="45" cy="244" rx="43" ry="43"/>
   
@@ -63,8 +55,6 @@
   <path d="M448  0 V512" stroke="lightgray" fill="white"></path>
   <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
-
-
 
   <!-- 橢圓 -->
   <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
