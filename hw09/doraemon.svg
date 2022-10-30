@@ -13,8 +13,6 @@
   <ellipse stroke="black" fill="white"  stroke-width="3" cx="266" cy="425" rx="105" ry="80"/>
   <path d="M185 419 Q256 430 348 419 Q350 485 265 488 Q185 485 185 419" stroke="black" fill="white" 
   stroke-width="3"/>
-  <!-- 背景-前 -->
-  <ellipse stroke="#4893c8" fill="none"  stroke-width="20" cx="265" cy="259" rx="240" ry="240"/>
     
   <!-- 臉-外 -->
   <ellipse stroke="black" fill="#00a0e9"  stroke-width="3" cx="266" cy="183" rx="186" ry="176"/>
